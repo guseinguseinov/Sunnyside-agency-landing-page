@@ -1,0 +1,27 @@
+.background {
+    width: 100%;
+}
+
+.background__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 447px;
+}
+
+.bootle {
+    background: url("../../images/image-gallery-milkbottles.jpg");
+}
+
+.limon {
+    background: url('../../images/image-gallery-orange.jpg');
+}
+
+.ice-cream {
+    background: url('../../images/image-gallery-cone.jpg');
+}
+
+.sweet {
+    background: url('../../images/image-gallery-sugarcubes.jpg');
+}

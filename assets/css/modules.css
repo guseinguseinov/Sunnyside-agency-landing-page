@@ -1,0 +1,58 @@
+.nav__link {
+    color: #fff;
+    padding: 16px 32px;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 28px;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+    margin-right: 27px; 
+}
+
+.nav__link:hover {
+    background-color: #78cef5;
+    color: #fff;
+}
+
+.nav__link__active {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* client */
+.client__card__image {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 58px;
+}
+
+.client__card__paragraph {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-bottom: 69px;
+}
+
+.card__name {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+    margin-bottom: 9px;
+}
+
+.card__work {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}

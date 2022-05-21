@@ -1,0 +1,16 @@
+.audience {
+    width: 100%;
+}
+
+.audience__image {
+    width: 50%;
+    background:url('../../images/cup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.audience__content {
+    width: 50%;
+    padding: 158px 110px;
+}
