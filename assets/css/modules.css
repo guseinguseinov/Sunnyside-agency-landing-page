@@ -56,3 +56,17 @@
     letter-spacing: -0.1px;
     color: #A7AAAD;
 }
+
+/* footer */
+.footer__nav_link {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458D7E;
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+}
+
+.footer__nav_link:hover {
+    color: #fff;
+}

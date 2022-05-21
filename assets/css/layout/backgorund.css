@@ -2,15 +2,7 @@
     width: 100%;
 }
 
-.background__image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 25%;
-    height: 447px;
-}
-
-.bootle {
+.bottle {
     background: url("../../images/image-gallery-milkbottles.jpg");
 }
 
@@ -24,4 +16,12 @@
 
 .sweet {
     background: url('../../images/image-gallery-sugarcubes.jpg');
+}
+
+.background__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 447px;
 }
