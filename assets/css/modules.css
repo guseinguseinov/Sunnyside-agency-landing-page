@@ -70,3 +70,18 @@
 .footer__nav_link:hover {
     color: #fff;
 }
+
+@media only screen and (max-width: 992px) {
+    .nav__link {
+        color: #808397;
+        margin: 10px 0;
+    }
+
+    .nav__link__active {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        background-color: #24303E;
+        color: #FBD600;
+    }
+    
+}

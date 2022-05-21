@@ -2,6 +2,14 @@
     width: 100%;
 }
 
+.design__graphic {
+    background: url('../../images/image-graphic-design.jpg');
+}
+
+.design__photo {
+    background: url('../../images/image-photography.jpg');
+}
+
 .design__background {
     width: 50%;
     height: 600px;
@@ -14,10 +22,15 @@
     align-items: center;    
 }
 
-.design__graphic {
-    background: url('../../images/image-graphic-design.jpg');
-}
 
-.design__photo {
-    background: url('../../images/image-photography.jpg');
+
+@media only screen and (max-width: 992px) {
+    .design {
+        flex-direction: column;
+    }
+
+    .design__background {
+        width: 100%;
+        padding: 0 24px;
+    }
 }

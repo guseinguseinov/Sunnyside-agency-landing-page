@@ -25,3 +25,22 @@
     width: 25%;
     height: 447px;
 }
+
+
+@media only screen and (max-width:992px) {
+    .background {
+        flex-wrap: wrap;
+    }
+
+    .background__image {
+        height: 188px;
+    }
+
+    .bottle, .limon {
+        width: 50%;
+    }
+    
+    .ice-cream, .sweet {
+        width: 50%;
+    }   
+}

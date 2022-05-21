@@ -40,6 +40,13 @@
     cursor: pointer;
 }
 
+.menu-button {
+    background: transparent;
+    border: 0;
+    cursor:pointer;
+    display: none;
+}
+
 
 /* transform */
 .content__header {
@@ -107,4 +114,16 @@
 
 .footer__socials__link:hover {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(55deg) brightness(107%) contrast(100%);
+}
+
+@media only screen and (max-width: 992px){
+    .creative__heading {
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: 6.25px;
+    }
+
+    .menu-button {
+        display: block;
+    }
 }
